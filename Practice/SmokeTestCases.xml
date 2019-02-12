@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->   <!-- // remove this line if showing any error here -->
+<suite name="Ecommerce" parallel="none">
+
+  <test name="LoginPage">
+  
+  <groups>						 			<!-- This will execute the given test cases alone -->
+    <run>
+    <include name = "Smoke"/>  				 <!-- If you want to include the smoke test cases  -->
+    <!-- <exclude name = "Smoke"/> -->		<!-- If you want to exclude the smoke test cases -->
+    
+    </run> 
+  </groups>
+  
+  <classes>
+  
+  	<class name = "udemy.AnnotationsDemo1"/>     <!-- packageName.ClassName -->
+  	<class name = "udemy.AnnotationsDemo2"/>
+  	<class name = "udemy.AnnotationsDemo3"/>
+  
+  </classes>
+  </test>
+ </suite> 

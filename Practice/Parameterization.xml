@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->   <!-- // remove this line if showing any error here -->
+<suite name="Ecommerce" parallel="test" thread-count="2">
+
+<!--  <parameter name="URL" value="www.google.com"/> -->    <!--  we are parameterizing by the test level -->
+  <test name="LoginPage">
+ <parameter name="URL" value="Demo1.com"/>			<!--  we are parameterizing by the class level -->
+  <classes>
+  
+  	<class name = "udemy.AnnotationsDemo1"/>     
+  <!-- 	<class name = "udemy.AnnotationsDemo2"/> -->
+  </classes>
+  </test>
+  
+  
+  <test name = "homePage">
+  <parameter name="URL" value="Demo2.com"/>
+  <parameter name="userName" value="innoppl"/>
+     <classes>
+     	<class name = "udemy.AnnotationsDemo2"/>        
+     </classes> 
+    </test> 
+  
+  <!-- <parameter name="URl" value="www.google.com"/> -->
+  <test name = "PDP">
+  <parameter name="URL" value="Demo3.com"/>
+      <classes> 
+       <class name = "udemy.AnnotationsDemo3"/>  
+         <!-- <methods>
+            <exclude name = "mainMenu"/>   
+            <exclude name = "mobile.*"/>    
+         </methods> -->
+     </classes> 
+  </test>
+ </suite> 
+

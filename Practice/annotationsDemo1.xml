@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->   <!-- // remove this line if showing any error here -->
+<suite name="Ecommerce" parallel="none">
+	
+	<!-- <listeners>
+		<listener class-name="listeners.listenersTestNG"/>
+	</listeners> -->	
+
+  <test name="LoginPage">
+  <classes>
+  
+  	<class name = "udemy.AnnotationsDemo1"/>     <!-- packageName.ClassName -->
+  <!-- 	<class name = "udemy.AnnotationsDemo2"/> -->
+  </classes>
+  </test>
+  
+  
+  <test name = "homePage">
+     <classes>
+     	<class name = "udemy.AnnotationsDemo2"/>
+     	   <methods> 
+     	     <include name = "bannerBlock"/>   <!-- //If client wants to execute the particular test in the class -->
+     	   </methods>          
+     </classes> 
+    </test> 
+  
+  
+  <test name = "PDP">
+      <classes> 
+       <class name = "udemy.AnnotationsDemo3"/>  
+         <methods>
+            <!-- <exclude name = "mainMenu"/> -->   <!-- //If client wants to exclude the particular method -->
+            <exclude name = "mobile.*"/>    <!-- // If we want to skip to execute the specific module like mobile -->
+         </methods>
+     </classes> 
+  </test>
+ </suite> 
+
+
+
+ <!--  Note: All the above scripts for handing the methods in suite level however we can handle it in package level as well refer the code below -->
+ 
+ <!--  
+  <suite>
+     <test name = "loginPage">
+     <packages>
+        <package name = "udemy"/>
+     <!packages>
+  
+  <!test>
+  <!suite>
+ 
+  -->
