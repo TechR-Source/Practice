@@ -1,12 +1,14 @@
 package javaPrograms;
 
+import java.util.Arrays;
+
 public class ConversCharToString {
 
 	public static void main(String[] args) {
 
 	//Convert Char To String:
 		
-	char myChar = 'g';
+	//char myChar = 'g';
 		
 		//Using toString() method
 		//toString method take character parameter and convert string.
@@ -24,8 +26,8 @@ public class ConversCharToString {
  */
 		
 		
+		
 	
-
 	//Convert String to Char:
 
 		String myStr = "Guru99";
@@ -41,6 +43,8 @@ public class ConversCharToString {
   
 			//print string to character
 			System.out.println("Character at "+i+" Position: "+myChar1);
+			
+			
 			}
 	
 		

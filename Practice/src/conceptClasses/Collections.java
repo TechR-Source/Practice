@@ -58,25 +58,24 @@ public class Collections  {
 	
 	}
 
-	@Override
 	public String empName() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+	
 	public void empAge() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void empAdd() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void empDomain() {
 		// TODO Auto-generated method stub
 		

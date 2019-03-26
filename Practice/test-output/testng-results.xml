@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11" started-at="2019-02-11T13:50:50Z" finished-at="2019-02-11T13:50:50Z">
+  <suite name="Default suite" duration-ms="77" started-at="2019-03-22T17:55:57Z" finished-at="2019-03-22T17:55:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11" started-at="2019-02-11T13:50:50Z" finished-at="2019-02-11T13:50:50Z">
+    <test name="Default test" duration-ms="77" started-at="2019-03-22T17:55:57Z" finished-at="2019-03-22T17:55:57Z">
+      <class name="udemy.AnnotationsPriority">
+        <test-method status="PASS" signature="recoverPass()[pri:-2, instance:udemy.AnnotationsPriority@1fee20c]" name="recoverPass" duration-ms="22" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recoverPass -->
+        <test-method status="PASS" signature="createAccountPage()[pri:-1, instance:udemy.AnnotationsPriority@1fee20c]" name="createAccountPage" duration-ms="2" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountPage -->
+        <test-method status="PASS" signature="enableFalse()[pri:0, instance:udemy.AnnotationsPriority@1fee20c]" name="enableFalse" duration-ms="1" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableFalse -->
+        <test-method status="PASS" signature="passRecoPage()[pri:0, instance:udemy.AnnotationsPriority@1fee20c]" name="passRecoPage" duration-ms="1" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passRecoPage -->
+        <test-method status="PASS" signature="confirmationMessage()[pri:1, instance:udemy.AnnotationsPriority@1fee20c]" name="confirmationMessage" duration-ms="0" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationMessage -->
+        <test-method status="PASS" signature="forgotPassword()[pri:2, instance:udemy.AnnotationsPriority@1fee20c]" name="forgotPassword" duration-ms="1" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="recoverPassword()[pri:0, instance:udemy.AnnotationsPriority@1fee20c]" name="recoverPassword" duration-ms="2" started-at="2019-03-22T23:25:57Z" depends-on-methods="udemy.AnnotationsPriority.passRecoPage" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recoverPassword -->
+        <test-method status="PASS" signature="afterExecute()[pri:0, instance:udemy.AnnotationsPriority@1fee20c]" name="afterExecute" is-config="true" duration-ms="1" started-at="2019-03-22T23:25:57Z" finished-at="2019-03-22T23:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecute -->
+      </class> <!-- udemy.AnnotationsPriority -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

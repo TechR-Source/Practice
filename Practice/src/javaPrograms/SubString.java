@@ -9,7 +9,7 @@ public class SubString {
 	public static void main(String[] args) {
 
 		String str = "www.google.com/manual/Automation";
-		System.out.println(str.substring(str.lastIndexOf("/")+1));  //To print after the last slash 
+		System.out.println(str.substring(str.lastIndexOf("/")));  //To print after the last slash 
 		System.out.println(str.substring(str.indexOf("/")));  		//To print after the first slash
 	
 		

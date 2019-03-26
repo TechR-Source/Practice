@@ -24,7 +24,7 @@ public class Synchroniz {
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.expedia.co.in/");
 		
-		driver.findElement(By.xpath("(//input[contains(@class,'clear-btn-input')])[7]")).sendKeys("Alaska"); // Dynamically chaning xpath
+		driver.findElement(By.xpath("(//input[contains(@class,'clear-btn-input')])[7]")).sendKeys("Alaska"); // Dynamically changing xpath
 		driver.findElement(By.xpath("(//input[contains(@class,'clear-btn-input')])[7]")).sendKeys(Keys.ENTER);
 		driver.findElement(By.xpath("(//input[contains(@class,'clear-btn-input')])[7]")).sendKeys(Keys.ENTER);
 		//driver.findElement(By.xpath("//button[@class='btn-primary btn-action  gcw-submit']")).click();
@@ -32,6 +32,7 @@ public class Synchroniz {
 	
 		WebDriverWait waitExp = new WebDriverWait(driver, 5);
 		waitExp.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[@class='flex-link'])[1]")));
+	
 				
 		driver.findElement(By.xpath("(//a[@class='flex-link'])[1]")).click();
 		

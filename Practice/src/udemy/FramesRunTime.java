@@ -16,8 +16,6 @@ import org.openqa.selenium.support.ui.Select;
 public class FramesRunTime {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -29,7 +27,9 @@ public class FramesRunTime {
 	    System.out.println("Total Frames =" + fraSize);
 	    
 		// prints the total number of frames 
-		driver.switchTo().frame(0); // Switching the Outer Frame    		
+		driver.switchTo().frame(0); // Switching the Outer Frame  
+	    System.out.println(driver.getTitle());
+
 	    System.out.println (driver.findElement(By.id("frame1")).getText()); 
 	
 

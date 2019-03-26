@@ -27,6 +27,20 @@ public class WebTable2 {
 		for (WebElement webElement : rowTotal) {
 		System.out.println(webElement.getText());
 		
+	/*	WebElement table = driver.findElement(By.className("dataTable"));
+		
+		List<WebElement> allRows = table.findElements(By.tagName("tr")); 
+
+		// And iterate over them, getting the cells 
+		for (WebElement row : allRows) { 
+		    List<WebElement> cells = row.findElements(By.tagName("td")); 
+
+		    // Print the contents of each cell
+		    for (WebElement cell : cells) { 
+		        System.out.println(cell.getText());
+		    }
+		}*/
+		
 		
 		
 		}

@@ -22,7 +22,8 @@ public class WindowHandles4 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get("http://qaclickacademy.com/practice.php");
-	
+		
+		
 
 		String parWin = driver.getWindowHandle();
 		System.out.println("Parent window is Id is  = " + parWin);
@@ -59,11 +60,14 @@ public class WindowHandles4 {
 			if (pgeTitle.equalsIgnoreCase("The World's Most Popular API Testing Tool | SoapUI")) {
 				driver.findElement(By.xpath("//a[@class='nav navbar-nav navbar-right secondary CMSListMenuLink']")).click();
 				System.out.println(driver.getTitle());
-				break;
+				//break;
+			} else if(!pgeTitle.equalsIgnoreCase("The World's Most Popular API Testing Tool | SoapUI")){
+				driver.close();
 				
 			}
 
 		}
+	
 		
 	}
 	

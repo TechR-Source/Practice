@@ -21,7 +21,6 @@ public class NoOfWords {
 			for(int i=0; i<splWor.length; i++){
 				System.out.println(splWor[i]);
 			}
-			
 		
 	}
 

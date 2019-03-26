@@ -9,6 +9,7 @@ public class LenOfString {
 		
 			int cnt = str.length();
 			System.out.println(cnt);
+			//System.out.println(str.length());
 			
 		
 	}
