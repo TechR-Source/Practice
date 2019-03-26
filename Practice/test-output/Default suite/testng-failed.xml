@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="udemy.AnnotationsDemo1">
+      <class name="udemy.WriteExcel">
         <methods>
-          <include name="fetchURL"/>
-          <include name="afterExecute"/>
+          <include name="writeExcel"/>
         </methods>
-      </class> <!-- udemy.AnnotationsDemo1 -->
+      </class> <!-- udemy.WriteExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

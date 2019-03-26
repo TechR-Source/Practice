@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>LoginPage</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 28 20:21:46 IST 2018</td>
+<td>Started on:</td><td>Fri Feb 22 02:08:32 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (88 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13222 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,27 +78,71 @@ function toggleAllBoxes() {
 <td title='udemy.AnnotationsDemo1.confirmationMessage()'><b>confirmationMessage</b><br>Test class: udemy.AnnotationsDemo1</td>
 <td></td>
 <td>0</td>
-<td>udemy.AnnotationsDemo1@1f37ef1</td></tr>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
+<tr>
+<td title='udemy.AnnotationsDemo1.confirmationMessage()'><b>confirmationMessage</b><br>Test class: udemy.AnnotationsDemo1</td>
+<td></td>
+<td>0</td>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
+<tr>
+<td title='udemy.AnnotationsDemo1.confirmationMessage()'><b>confirmationMessage</b><br>Test class: udemy.AnnotationsDemo1</td>
+<td></td>
+<td>0</td>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
 <tr>
 <td title='udemy.AnnotationsDemo1.createAccountPage()'><b>createAccountPage</b><br>Test class: udemy.AnnotationsDemo1</td>
 <td></td>
 <td>0</td>
-<td>udemy.AnnotationsDemo1@1f37ef1</td></tr>
-<tr>
-<td title='udemy.AnnotationsDemo1.fetchURL()'><b>fetchURL</b><br>Test class: udemy.AnnotationsDemo1<br>Parameters: Demo1.com</td>
-<td></td>
-<td>0</td>
-<td>udemy.AnnotationsDemo1@1f37ef1</td></tr>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
 <tr>
 <td title='udemy.AnnotationsDemo1.forgotPassword()'><b>forgotPassword</b><br>Test class: udemy.AnnotationsDemo1</td>
 <td></td>
 <td>0</td>
-<td>udemy.AnnotationsDemo1@1f37ef1</td></tr>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
+<tr>
+<td title='udemy.AnnotationsDemo1.innoCnt()'><b>innoCnt</b><br>Test class: udemy.AnnotationsDemo1</td>
+<td></td>
+<td>13</td>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
 <tr>
 <td title='udemy.AnnotationsDemo1.loginPage()'><b>loginPage</b><br>Test class: udemy.AnnotationsDemo1</td>
 <td></td>
 <td>0</td>
-<td>udemy.AnnotationsDemo1@1f37ef1</td></tr>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='udemy.AnnotationsDemo1.fetchURL()'><b>fetchURL</b><br>Test class: udemy.AnnotationsDemo1</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;URL&apos; is required by @Test on method fetchURL but has not been marked @Optional or defined
+in C:\SeleniumScriptsGit\Practice\Practice\annotationsDemo1.xml
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace21682794", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace21682794'><pre>org.testng.TestNGException: 
+Parameter &apos;URL&apos; is required by @Test on method fetchURL but has not been marked @Optional or defined
+in C:\SeleniumScriptsGit\Practice\Practice\annotationsDemo1.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1269)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>udemy.AnnotationsDemo1@cbfb61</td></tr>
 </table><p>
 </body>
 </html>

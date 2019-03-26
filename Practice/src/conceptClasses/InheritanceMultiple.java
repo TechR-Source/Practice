@@ -1,6 +1,6 @@
 package conceptClasses;
 
-//A class which is having permission to access the properties of another class in called as inheritance using "extends" keyword
+//A class which is accessing the properties of another class is called as inheritance using "extends" keyword
 
 
 class demoClass{ 					

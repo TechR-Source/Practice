@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="ChromeTest" parallel="methods">
+  
+  <parameter name="browser" value="chrome"/>
+  
+  <classes>
+  	<class name="udemy.ParallelTestExecution"/>
+  </classes>
+  
+  </test> 
+  
+</suite> 
+
+
+<!-- <suite name="Suite1" verbose="1" >
+
+  <test name="ParallelGroup" parallel="methods"  >
+    <classes>
+        <class name="testngtests.TestParallel"/>
+    </classes>
+  </test>
+
+  <test name="Sequential" parallel="false"  >
+    <classes>
+        <class name="testngtests.copy.TestSeq"></class>
+    </classes>
+  </test>
+</suite> -->

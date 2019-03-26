@@ -29,7 +29,8 @@ public class AnnotationsDemo1 {
 		System.out.println("This is the Create An Account Page");
 	}
 		
-	@Test(invocationCount=2)
+	//@Test(invocationCount=2)
+	@Test
 	public void innoCnt(){
 	System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 	WebDriver driver = new ChromeDriver();

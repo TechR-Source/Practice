@@ -1,4 +1,4 @@
-package udemy;
+package javaPrograms;
 
 public class Int {
 

@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Ecommerce]" parallel="none">
-  <parameter name="userName" value="innoppl"/>
-  <parameter name="URL" value="Demo3.com"/>
-  <test name="PDP(failed)" parallel="none">
-    <parameter name="URL" value="Demo3.com"/>
+  <test name="LoginPage(failed)" parallel="classes">
     <classes>
       <class name="udemy.AnnotationsDemo1">
         <methods>
+          <include name="fetchURL"/>
           <include name="afterExecute"/>
         </methods>
       </class> <!-- udemy.AnnotationsDemo1 -->
-      <class name="udemy.AnnotationsDemo3">
-        <methods>
-          <include name="dataPro"/>
-        </methods>
-      </class> <!-- udemy.AnnotationsDemo3 -->
-      <class name="udemy.AnnotationsDemo2">
-        <methods>
-          <include name="beforeExecute"/>
-        </methods>
-      </class> <!-- udemy.AnnotationsDemo2 -->
     </classes>
-  </test> <!-- PDP(failed) -->
+  </test> <!-- LoginPage(failed) -->
 </suite> <!-- Failed suite [Ecommerce] -->

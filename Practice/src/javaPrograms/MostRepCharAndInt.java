@@ -7,14 +7,16 @@ public class MostRepCharAndInt {
 		
 		
 		//Integer:
-		/*
+		
 		int arr[] = {1,2,3,4,1,5,6,1};
 		int element=0;
 		int count=0;
+		int tempElement;
+		int tempCount=0;
 		
 		for (int i = 0; i < arr.length; i++) {
-			int tempElement = arr[i];
-			int tempCount=0;
+			 tempElement = arr[i];
+			
 			
 			for (int j = 0; j < arr.length; j++) {
 				
@@ -24,8 +26,10 @@ public class MostRepCharAndInt {
 				if (tempCount>count) {
 					element = tempElement;
 					count = tempCount;
+					System.out.println(element);
 					
 				}
+				
 				}
 				
 			}
@@ -33,11 +37,11 @@ public class MostRepCharAndInt {
 		
 		
 			
-		}*/
+		}
 		
 		//String
-		
-		String arr[] = {"Test", "Data", "Test", " App", "Web"};
+		/*
+		String arr[] = {"Test", "Data", "Test", " App", "Web", "Data"};
 		String element=" ";
 		int count=0;
 		
@@ -53,10 +57,11 @@ public class MostRepCharAndInt {
 				if (tempCount>count) {
 					element = tempElement;
 					count = tempCount;
-					
+					System.out.println(element);
 				}
 			
-				}}}
+				}}
+		}*/
 	}
-
 }
+	

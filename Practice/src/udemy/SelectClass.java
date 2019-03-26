@@ -23,6 +23,7 @@ public class SelectClass {
 		dd.selectByIndex(2);
 		dd.selectByValue("USD");
 		dd.selectByVisibleText("INR");
+		
 	
 	}
 

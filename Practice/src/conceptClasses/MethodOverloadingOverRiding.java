@@ -1,7 +1,7 @@
 package conceptClasses;
 
 
-//Method OverRiding - When there are 2 methods in the same name and also same arguments with the different class is called overriding (Run time polymorphism)
+//Method OverRiding - When there are 2 methods in the same name and also with the same arguments from the different class is called overriding (Run time polymorphism)
 
 // the method will execute for the object of class b in this program (this is called as dynamic binding in java)
 
@@ -43,7 +43,7 @@ class movrload{
 		
 	}
 	
-	void method1(int a, String str){
+	 void method1(int a, String str){
 		
 	}
 	

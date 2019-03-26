@@ -38,6 +38,7 @@ public class CalenderHandling {
 			System.out.println(webElement.getText());	
 		}
 		
+		
 		int dCount = driver.findElements(By.className("day")).size();
 		for (int i = 0; i < dCount; i++) {
 		String actText = driver.findElements(By.className("day")).get(i).getText();	

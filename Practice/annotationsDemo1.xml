@@ -6,7 +6,7 @@
 		<listener class-name="listeners.listenersTestNG"/>
 	</listeners> -->	
 
-  <test name="LoginPage">
+  <test name="LoginPage" parallel="classes" thread-count="2" >
   <classes>
   
   	<class name = "udemy.AnnotationsDemo1"/>     <!-- packageName.ClassName -->
@@ -15,11 +15,11 @@
   </test>
   
   
-  <test name = "homePage">
+<!--   <test name = "homePage">
      <classes>
      	<class name = "udemy.AnnotationsDemo2"/>
      	   <methods> 
-     	     <include name = "bannerBlock"/>   <!-- //If client wants to execute the particular test in the class -->
+     	     <include name = "bannerBlock"/>   //If client wants to execute the particular test in the class
      	   </methods>          
      </classes> 
     </test> 
@@ -29,11 +29,11 @@
       <classes> 
        <class name = "udemy.AnnotationsDemo3"/>  
          <methods>
-            <!-- <exclude name = "mainMenu"/> -->   <!-- //If client wants to exclude the particular method -->
-            <exclude name = "mobile.*"/>    <!-- // If we want to skip to execute the specific module like mobile -->
+            <exclude name = "mainMenu"/>   //If client wants to exclude the particular method
+            <exclude name = "mobile.*"/>    // If we want to skip to execute the specific module like mobile
          </methods>
      </classes> 
-  </test>
+  </test> -->
  </suite> 
 
 

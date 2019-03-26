@@ -5,7 +5,7 @@ abstract class person{
 	String name;
 	int salary=5000;
 	
-	void setData(String name, int age){
+	public void setData(String name, int age){
 		this.name=name;
 		this.age=age;
 	}
@@ -61,8 +61,6 @@ public class AbstractClass {
 		tea.display();
 		stu.setData("kumar", 22);
 		stu.display();
-
-		
 	}
 	
 	

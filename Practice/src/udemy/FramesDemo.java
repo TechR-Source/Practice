@@ -32,15 +32,11 @@ public class FramesDemo {
 		driver.switchTo().defaultContent(); // defaultContent for switching back to the previous block
 	
 	
-		
-	/*	int i=0, n=10, t1=0, t2=1, sum=0;
-		while(i<=n){
-			System.out.println(t1);
-			sum=t1+t2;
-			t1=t2;
-			t2=sum;
-			i++;
-		}*/
+		/*
+		 * 
+		 * 
+		 */
+	
 		
 	}
 }
